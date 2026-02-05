@@ -1,0 +1,96 @@
+@font-face {
+    font-family: Lucy;
+    src: url(./Lucy\ Said\ Ok\ Personal\ Use.ttf);
+}
+@font-face {
+    font-family: Hugh;
+    src: url(./Hugh\ is\ Life\ Personal\ Use\ .ttf);
+}
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: #ffc9d1;
+}
+
+.box{
+    position: relative;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 20vw;
+    height: 37vh;
+    background-color: #fff0f3;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    overflow: hidden;
+}
+H1{
+    font-family: Hugh;
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    padding-top: 5%;
+    font-size: 4.5vw;
+    color: #ff4d6d;
+}
+p{
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 1.7vw;
+    color: #550f1c;
+}
+.yes{
+    position: absolute;
+    bottom: 10%;
+    left: 40%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    background-color: #ff4d6d;
+    padding: 1% 3%;
+    width: 10%;
+    height: 10%;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.yes:hover{
+    background-color: #e03e5b;
+}
+.no, .no2{
+    position: absolute;
+    bottom: 10%;
+    right: 40%;
+    transform: translate(50%,-50%);
+    text-align: center;
+    font-size: 2vw;
+    color: white;
+    background-color: #550f1c;
+    padding: 1% 3%;
+    border-radius: 10px;
+    text-decoration: none;
+    width: 10%;
+    height: 10%;
+}
+.no:hover{
+    background-color: #3e0a13;
+}
+.no2:hover{
+    background-color: #3e0a13;
+}
