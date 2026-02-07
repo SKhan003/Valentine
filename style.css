@@ -36,7 +36,7 @@ html, body{
     overflow: hidden;
 }
 H1{
-    font-family: Hugh;
+    font-family: Lucy;
     position: absolute;
     top: 55%;
     left: 50%;
@@ -45,6 +45,7 @@ H1{
     padding-top: 5%;
     font-size: 4.5vw;
     color: #ff4d6d;
+    line-height: 6.5vw;
 }
 p{
     position: absolute;
@@ -93,4 +94,21 @@ p{
 }
 .no2:hover{
     background-color: #3e0a13;
+}
+@media screen and (max-width: 600px){
+    .box{
+        width: 60vw;
+        height: 30vh;
+    }
+    H1{
+        font-size: 8vw;
+    }
+    p{
+        font-size: 4vw;
+    }
+    .yes, .no, .no2{
+        font-size: 4vw;
+        width: 20%;
+        height: 5%;
+    }
 }
